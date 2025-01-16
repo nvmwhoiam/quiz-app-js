@@ -1,0 +1,527 @@
+[
+    {
+        "category": "General Knowledge",
+        "questions": [
+            {
+                "question": "What is the capital city of Australia?",
+                "options": [
+                    "Sydney",
+                    "Melbourne",
+                    "Canberra",
+                    "Brisbane"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Which planet is known as the Red Planet?",
+                "options": [
+                    "Earth",
+                    "Mars",
+                    "Jupiter",
+                    "Venus"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Who wrote 'To Kill a Mockingbird'?",
+                "options": [
+                    "Harper Lee",
+                    "Mark Twain",
+                    "Ernest Hemingway",
+                    "F. Scott Fitzgerald"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Which is the smallest country in the world?",
+                "options": [
+                    "Monaco",
+                    "Vatican City",
+                    "San Marino",
+                    "Liechtenstein"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the boiling point of water at sea level?",
+                "options": [
+                    "90°C",
+                    "100°C",
+                    "110°C",
+                    "120°C"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the national animal of Canada?",
+                "options": [
+                    "Beaver",
+                    "Moose",
+                    "Polar Bear",
+                    "Caribou"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "What is the largest ocean on Earth?",
+                "options": [
+                    "Atlantic Ocean",
+                    "Indian Ocean",
+                    "Pacific Ocean",
+                    "Arctic Ocean"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Which is the longest river in the world?",
+                "options": [
+                    "Amazon",
+                    "Nile",
+                    "Yangtze",
+                    "Mississippi"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Who painted the Mona Lisa?",
+                "options": [
+                    "Michelangelo",
+                    "Leonardo da Vinci",
+                    "Raphael",
+                    "Vincent van Gogh"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the capital city of Japan?",
+                "options": [
+                    "Kyoto",
+                    "Osaka",
+                    "Tokyo",
+                    "Nagoya"
+                ],
+                "correct": 2
+            }
+        ]
+    },
+    {
+        "category": "Science",
+        "questions": [
+            {
+                "question": "What is the chemical symbol for water?",
+                "options": [
+                    "H2O",
+                    "O2",
+                    "CO2",
+                    "HO2"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "What is the speed of light?",
+                "options": [
+                    "300,000 km/s",
+                    "150,000 km/s",
+                    "100,000 km/s",
+                    "450,000 km/s"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "What is the powerhouse of the cell?",
+                "options": [
+                    "Nucleus",
+                    "Ribosome",
+                    "Mitochondria",
+                    "Golgi Apparatus"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Which gas do plants primarily use for photosynthesis?",
+                "options": [
+                    "Oxygen",
+                    "Carbon Dioxide",
+                    "Nitrogen",
+                    "Hydrogen"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the hardest natural substance on Earth?",
+                "options": [
+                    "Gold",
+                    "Iron",
+                    "Diamond",
+                    "Quartz"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Which planet has the most moons?",
+                "options": [
+                    "Jupiter",
+                    "Saturn",
+                    "Uranus",
+                    "Neptune"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the main gas in Earth's atmosphere?",
+                "options": [
+                    "Oxygen",
+                    "Carbon Dioxide",
+                    "Nitrogen",
+                    "Helium"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Which blood cells help fight infection?",
+                "options": [
+                    "Red Blood Cells",
+                    "White Blood Cells",
+                    "Platelets",
+                    "Plasma"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the chemical symbol for gold?",
+                "options": [
+                    "Au",
+                    "Ag",
+                    "Fe",
+                    "Hg"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "What type of energy does the sun produce?",
+                "options": [
+                    "Thermal",
+                    "Nuclear",
+                    "Solar",
+                    "Kinetic"
+                ],
+                "correct": 2
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "questions": [
+            {
+                "question": "Who was the first President of the United States?",
+                "options": [
+                    "Abraham Lincoln",
+                    "George Washington",
+                    "John Adams",
+                    "Thomas Jefferson"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What year did World War II end?",
+                "options": [
+                    "1942",
+                    "1945",
+                    "1948",
+                    "1950"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Who discovered America?",
+                "options": [
+                    "Christopher Columbus",
+                    "Leif Erikson",
+                    "Amerigo Vespucci",
+                    "Vasco da Gama"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Which empire built the Colosseum?",
+                "options": [
+                    "Greek",
+                    "Roman",
+                    "Byzantine",
+                    "Ottoman"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Who was known as the 'Iron Lady'?",
+                "options": [
+                    "Queen Elizabeth I",
+                    "Margaret Thatcher",
+                    "Angela Merkel",
+                    "Indira Gandhi"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "In what year did the Titanic sink?",
+                "options": [
+                    "1910",
+                    "1912",
+                    "1914",
+                    "1920"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Who was the first man to step on the moon?",
+                "options": [
+                    "Buzz Aldrin",
+                    "Yuri Gagarin",
+                    "Neil Armstrong",
+                    "Michael Collins"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "What was the ancient Egyptian writing system called?",
+                "options": [
+                    "Cuneiform",
+                    "Hieroglyphics",
+                    "Latin",
+                    "Sanskrit"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Who was the last Tsar of Russia?",
+                "options": [
+                    "Alexander II",
+                    "Nicholas II",
+                    "Peter the Great",
+                    "Ivan the Terrible"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Where was Napoleon Bonaparte born?",
+                "options": [
+                    "France",
+                    "Corsica",
+                    "Italy",
+                    "Spain"
+                ],
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "category": "Geography",
+        "questions": [
+            {
+                "question": "Which is the largest desert in the world?",
+                "options": [
+                    "Sahara",
+                    "Gobi",
+                    "Antarctica",
+                    "Kalahari"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "What is the longest mountain range in the world?",
+                "options": [
+                    "Rocky Mountains",
+                    "Andes",
+                    "Himalayas",
+                    "Alps"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the capital of Canada?",
+                "options": [
+                    "Toronto",
+                    "Ottawa",
+                    "Vancouver",
+                    "Montreal"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Which country has the most time zones?",
+                "options": [
+                    "Russia",
+                    "USA",
+                    "China",
+                    "France"
+                ],
+                "correct": 3
+            },
+            {
+                "question": "Which continent has the most countries?",
+                "options": [
+                    "Asia",
+                    "Europe",
+                    "Africa",
+                    "South America"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "What is the largest island in the world?",
+                "options": [
+                    "Greenland",
+                    "Madagascar",
+                    "Borneo",
+                    "New Guinea"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Which river flows through Egypt?",
+                "options": [
+                    "Amazon",
+                    "Ganges",
+                    "Nile",
+                    "Yangtze"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "What is the smallest continent by land area?",
+                "options": [
+                    "Europe",
+                    "Australia",
+                    "South America",
+                    "Antarctica"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the capital of South Korea?",
+                "options": [
+                    "Seoul",
+                    "Tokyo",
+                    "Beijing",
+                    "Pyongyang"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Which country is known as the Land of the Rising Sun?",
+                "options": [
+                    "China",
+                    "South Korea",
+                    "Thailand",
+                    "Japan"
+                ],
+                "correct": 3
+            }
+        ]
+    },
+    {
+        "category": "Sports",
+        "questions": [
+            {
+                "question": "How many players are there in a soccer team?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "In which sport is the term 'love' used?",
+                "options": [
+                    "Tennis",
+                    "Badminton",
+                    "Cricket",
+                    "Golf"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Which country won the first FIFA World Cup?",
+                "options": [
+                    "Brazil",
+                    "Germany",
+                    "Uruguay",
+                    "Argentina"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "What is the maximum score in a single frame of bowling?",
+                "options": [
+                    "200",
+                    "250",
+                    "300",
+                    "400"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "How many rings are there on the Olympic flag?",
+                "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Which sport uses the term 'home run'?",
+                "options": [
+                    "Cricket",
+                    "Baseball",
+                    "Rugby",
+                    "Basketball"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "Which country has won the most Cricket World Cups?",
+                "options": [
+                    "India",
+                    "Australia",
+                    "England",
+                    "West Indies"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "What is the national sport of Japan?",
+                "options": [
+                    "Karate",
+                    "Judo",
+                    "Sumo Wrestling",
+                    "Kendo"
+                ],
+                "correct": 2
+            },
+            {
+                "question": "Which football player is known as 'CR7'?",
+                "options": [
+                    "Lionel Messi",
+                    "Cristiano Ronaldo",
+                    "Neymar Jr.",
+                    "Kylian Mbappe"
+                ],
+                "correct": 1
+            },
+            {
+                "question": "How many points is a touchdown worth in American football?",
+                "options": [
+                    "3",
+                    "6",
+                    "7",
+                    "8"
+                ],
+                "correct": 1
+            }
+        ]
+    }
+]

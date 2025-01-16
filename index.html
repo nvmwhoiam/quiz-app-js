@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="description"
+        content="This project is a dynamic quiz application that allows users to select a category and answer a series of questions. The app tracks the user's score and displays the final results based on their performance. It includes features such as a timer for each question, a progress bar, and the ability to reset the quiz.">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/index.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-32x32.png">
+    <link rel="canonical" href="https://lynqis.io/demo/quiz-app-js">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="nvmwhoiam">
+    <meta name="keywords"
+        content="Science Quiz, Math Quiz, Geography Quiz, History Quiz, Trivia Quiz, General Knowledge Quiz, Quiz for Kids">
+    <title>Quiz | Lynqis.io</title>
+</head>
+
+<body>
+    <main class="main_container">
+
+        <section class="section_container">
+
+            <div class="section_header"> </div>
+
+            <div class="section_body" id="quiz_categories"> </div>
+
+            <div class="section_footer"> </div>
+
+        </section>
+
+        <div class="backdrop" data-state="closed">
+
+            <div class="modal" id="modal" data-state="closed">
+
+                <div class="modal_header">
+
+                    <div class="flex">
+                        <div class="flex_item">
+                            <button type="button" class="btn_icon" data-btn="close_modal" aria-label="">
+                                <i class="icon_angle-left-solid"></i>
+                            </button>
+                        </div>
+
+                        <h2 class="category_name"></h2>
+
+                        <div class="flex_item">
+                            <i class="icon_clock-regular"></i> <span class="timer">00</span>
+                        </div>
+                    </div>
+
+                    <div class="progress_bar">
+                        <div class="progress_fill" style="width: 10%;"></div>
+                    </div>
+
+                </div>
+
+                <div class="modal_body quizzes"> </div>
+
+                <div class="modal_footer">
+
+                    <button type="button" class="btn_btn next_btn" data-btn="reset" aria-label="Start from beginning">
+                        Reset
+                    </button>
+
+                    <button type="button" class="btn_primary next_btn" data-btn="next" aria-label="Next question">
+                        Next
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script type="module" src="assets/js/index.js"></script>
+</body>
+
+</html>

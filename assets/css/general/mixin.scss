@@ -1,0 +1,141 @@
+//MAIN CSS VARS START
+@mixin Dflex($jscntnt) {
+    display: flex;
+    justify-content: $jscntnt;
+    align-items: center;
+}
+
+@mixin bckimgCenter {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin grids($tmplt, $cgap, $rgap) {
+    display: grid;
+    grid-template-columns: repeat($tmplt, 1fr);
+    grid-column-gap: $cgap;
+    grid-row-gap: $rgap;
+}
+
+@mixin position($position, $top: null, $bottom: null, $left: null, $right: null) {
+    position: $position;
+
+    @if $top {
+        top: $top;
+    }
+
+    @if $bottom {
+        bottom: $bottom;
+    }
+
+    @if $left {
+        left: $left;
+    }
+
+    @if $right {
+        right: $right;
+    }
+}
+
+@mixin posCenter($position) {
+    position: $position;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin hideScroll {
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+@mixin dataStateFade() {
+    &[data-state="closed"] {
+        display: none;
+    }
+
+    &[data-state="open"] {
+        // display: flex;
+        // flex-direction: column;
+        animation: FadeIn var(--animation-speed) forwards;
+    }
+
+    &[data-state="closing"] {
+        animation: FadeOut var(--animation-speed) forwards;
+    }
+}
+
+@mixin dataStateFadeColumn() {
+    &[data-state="closed"] {
+        display: none;
+    }
+
+    &[data-state="open"] {
+        // display: flex;
+        // flex-direction: column;
+        animation: FadeIn var(--animation-speed) forwards;
+    }
+
+    &[data-state="closing"] {
+        animation: FadeOut var(--animation-speed) forwards;
+    }
+}
+
+@mixin dataStateSlide() {
+    &[data-state="closed"] {
+        display: none;
+    }
+
+    &[data-state="open"] {
+        display: flex;
+        flex-direction: column;
+        animation: RightToLeft var(--animation-speed) forwards;
+    }
+
+    &[data-state="closing"] {
+        animation: LeftToRight var(--animation-speed) forwards;
+    }
+}
+
+@mixin animateWidth($width) {
+    &[data-state="closed"] {
+        display: none;
+    }
+
+    &[data-state="open"] {
+        animation: growWidth var(--animation-speed) forwards;
+    }
+
+    &[data-state="closing"] {
+        animation: lowerWidth var(--animation-speed) forwards;
+    }
+
+    @keyframes growWidth {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: $width;
+        }
+    }
+
+    @keyframes lowerWidth {
+        100% {
+            width: 0;
+        }
+
+        0% {
+            width: $width;
+        }
+    }
+}
+
+// look after keyframes above
