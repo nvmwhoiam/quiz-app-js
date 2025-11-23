@@ -16,7 +16,7 @@ let timeRemaining = 15; // Timer starts at 15 seconds
 
 document.addEventListener("DOMContentLoaded", async () => {
     try {
-        const response = await fetch('./assets/js/quizzes.json');
+        const response = await fetch('./assets/json/quizzes.json');
         const quizData = await response.json();
 
         for (const [index, element] of quizData.entries()) {
@@ -42,6 +42,7 @@ document.addEventListener('click', (e) => {
 
     const closeModalBtn = e.target.closest('[data-btn="close_modal"]');
     if (closeModalBtn) {
+        resetQuiz();
         closeModal();
     }
 

@@ -1,15 +1,12 @@
-@import "general/mixin.scss";
-@import "general/keyframes.css";
+@import "general/root.css";
 @import "general/base.css";
 @import "general/icons.css";
+@import "general/keyframes.css";
+@import "general/mixin.scss";
 
 .main_container {
     width: 100vw;
     height: 100vh;
-
-    .header_container {
-        margin: var(--xl-p) var(--md-p);
-    }
 
     .section_container {
         width: 100%;
@@ -39,6 +36,12 @@
                 width: 100%;
             }
         }
+    }
+
+    .header_container,
+    .footer_container {
+        text-align: center;
+        padding: var(--xl-p) var(--md-p);
     }
 }
 
